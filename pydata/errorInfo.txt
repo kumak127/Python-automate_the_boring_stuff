@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<ipython-input-2-a7bf2f0523cb>", line 8, in <module>
+    spam()
+  File "<ipython-input-2-a7bf2f0523cb>", line 2, in spam
+    bacon()
+  File "<ipython-input-2-a7bf2f0523cb>", line 5, in bacon
+    raise Exception("これはエラーメッセージです")
+Exception: これはエラーメッセージです
